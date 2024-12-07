@@ -118,7 +118,15 @@ a:hover, #header.nav-solid nav a:hover {
     background: url("../images/banner-images/bgimg.jpg") no-repeat center top;
     background-size:cover;
 }
+/* phones and small screens */
+@media only screen and (max-width: 770px) {
+    #banner {
+        /* dimensions: maximize lightbox with for small screens */
+        background: url() no-repeat center top;
+        background-size:cover;
+    }
 
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
